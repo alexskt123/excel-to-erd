@@ -1,5 +1,5 @@
 ## Excel to UML/ERD Diagrams
- 1. Prepare a database tables/fields excel file with the following columns & example:
+ 1. Prepare a database tables/fields excel file, rename the sheet as `Data Dict`, put the database info with the following columns & example:
 
 |Workstream|Table Name|Field Name|Data Type|Foreign Key Table|Foreign Key Field|
 |--|--|--|--|--|--|
