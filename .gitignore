@@ -108,3 +108,5 @@ dist
 package-lock.json
 *.log
 output/
+output*
+*.zip
