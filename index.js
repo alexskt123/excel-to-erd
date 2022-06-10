@@ -6,7 +6,7 @@ try {
   const xlsxContent = processXlsxFiles();
 
   refreshOutputDir(config.outputPath.base);
-  outputUMLFiles(xlsxContent);
+  outputUMLFiles(xlsxContent).catch(e => log.error(e));
 
   log.info('Success!');
 } catch (e) {
